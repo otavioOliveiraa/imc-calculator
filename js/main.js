@@ -29,7 +29,7 @@ inputWeight.oninput = () => alertError.close()
 inputHeight.oninput = () => alertError.close()
 
 function displayMessageResult (result) {
-  const message = `Seu calculateIMC é de ${result}`
+  const message = `Seu IMC é de ${result}`
   Modal.message.innerText = message
   return;
 }
